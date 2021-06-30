@@ -1,0 +1,168 @@
+apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
+
+android {
+    compileSdkVersion 30
+    buildToolsVersion "29.0.3"
+    defaultConfig {
+
+        applicationId "com.alaan.outn"
+        minSdkVersion 19
+        targetSdkVersion 30
+        versionCode 47
+        versionName "1.47"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        multiDexEnabled true
+        vectorDrawables.useSupportLibrary = true
+
+    }
+
+    signingConfigs {
+        release {
+
+            storeFile file("/Users/alaa/Downloads/outn-changedisn/app/outn.jks")
+            storePassword "1841869120"
+            keyAlias "outn"
+            keyPassword "1841869120"
+        }
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            signingConfig signingConfigs.release
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    lintOptions {
+        checkReleaseBuilds false
+        abortOnError false
+        ignoreWarnings true //false
+    }
+    kotlinOptions {
+        jvmTarget = JavaVersion.VERSION_1_8
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+  //   for applications
+    applicationVariants.all { variant ->
+        variant.javaCompileProvider.get().doLast {
+            runAllatori(variant)
+        }
+    }
+}
+
+dependencies {
+
+
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'androidx.appcompat:appcompat:1.1.0'
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.2'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
+    implementation 'androidx.core:core-ktx:1.3.1'
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+
+    /////////////retrofit2
+    implementation 'com.squareup.retrofit2:retrofit:2.6.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.6.0'
+    implementation 'com.squareup.okhttp3:logging-interceptor:4.0.0'
+    implementation 'com.squareup.retrofit2:retrofit-mock:2.5.0'
+    implementation 'androidx.recyclerview:recyclerview:1.1.0'
+
+    implementation 'com.squareup.picasso:picasso:2.71828'
+    implementation 'de.hdodenhof:circleimageview:3.0.1'
+    implementation 'com.karumi:dexter:5.0.0'
+
+    def lifecycle_version = "2.2.0"
+    def arch_version = "2.1.0"
+
+    // ViewModel
+    implementation "androidx.lifecycle:lifecycle-viewmodel:$lifecycle_version"
+    // LiveData
+    implementation "androidx.lifecycle:lifecycle-livedata:$lifecycle_version"
+    // Lifecycles only (without ViewModel or LiveData)
+    implementation "androidx.lifecycle:lifecycle-runtime:$lifecycle_version"
+// https://mvnrepository.com/artifact/androidx.fragment/fragment
+    implementation group: 'androidx.fragment', name: 'fragment', version: '1.3.0-alpha08'
+
+    implementation 'com.tbuonomo.andrui:viewpagerdotsindicator:3.0.3'
+    implementation 'com.github.bumptech.glide:glide:4.10.0'
+    implementation 'com.google.android.material:material:1.0.0'
+    implementation 'com.hbb20:ccp:2.3.4'
+    implementation 'com.google.firebase:firebase-analytics:17.2.1'
+    implementation 'com.google.firebase:firebase-auth:19.3.0'
+    implementation 'com.google.code.gson:gson:2.8.5'
+    implementation "org.jetbrains.anko:anko:$anko_version"
+    implementation 'androidx.multidex:multidex:2.0.1'
+    implementation 'io.github.ivanespitiac:imageslider:1.0.3'
+    implementation 'me.relex:circleindicator:1.2.2@aar'
+    implementation 'com.google.android.gms:play-services-ads:18.3.0'
+    implementation project(path: ':cropper')
+
+    implementation 'org.jsoup:jsoup:1.11.3'
+    implementation 'com.shuhart.stepview:stepview:1.5.1'
+    implementation 'com.chaos.view:pinview:1.4.2'
+    implementation 'com.google.firebase:firebase-messaging:20.1.7'
+    implementation 'jp.wasabeef:picasso-transformations:2.2.1'
+    implementation 'com.yanzhenjie:album:2.1.3'
+
+}
+
+
+def runAllatori(variant) {
+    copy {
+        from "$projectDir/allatori.xml"
+        into "$buildDir/intermediates/classes/"
+
+        expand(classesRoot: variant.javaCompileProvider.get().destinationDir,
+                kotlinRoot: "${buildDir}/tmp/kotlin-classes/${variant.name}",
+                androidJar: "${android.sdkDirectory}/platforms/${android.compileSdkVersion}/android.jar",
+                classpathJars: variant.javaCompileProvider.get().classpath.getAsPath(),
+                logFile: "allatori-log-${variant.name}.xml")
+        rename('allatori.xml', "allatori-${variant.name}.xml")
+    }
+
+    // old Gradle versions:
+    // new File("${variant.javaCompile.destinationDir}-obfuscated").deleteDir()
+    // new Gradle versions:
+    new File("${variant.javaCompileProvider.get().destinationDir}-obfuscated").deleteDir()
+
+    // Kotlin support
+    // new File("${buildDir}/tmp/kotlin-classes/${variant.name}-obfuscated").deleteDir()
+
+    javaexec {
+        main = 'com.allatori.Obfuscate'
+        classpath = files("$rootDir/allatori/allatori.jar")
+        args "$buildDir/intermediates/classes/allatori-${variant.name}.xml"
+    }
+
+    // old Gradle versions:
+    // new File("${variant.javaCompile.destinationDir}").deleteDir()
+    // new File("${variant.javaCompile.destinationDir}-obfuscated").renameTo(new File("${variant.javaCompile.destinationDir}"))
+    // new Gradle versions:
+    new File("${variant.javaCompileProvider.get().destinationDir}").deleteDir()
+    new File("${variant.javaCompileProvider.get().destinationDir}-obfuscated").renameTo(new File("${variant.javaCompileProvider.get().destinationDir}"))
+
+    // Kotlin support
+    // new File("${buildDir}/tmp/kotlin-classes/${variant.name}").deleteDir()
+    // new File("${buildDir}/tmp/kotlin-classes/${variant.name}-obfuscated").renameTo(new File("${buildDir}/tmp/kotlin-classes/${variant.name}"))
+}
+
+apply plugin: 'com.google.gms.google-services'
+
+
+repositories {
+    google()
+    maven { url 'https://maven.google.com' }
+    mavenCentral()
+    maven { url 'https://jitpack.io' }
+    jcenter()
+
+
+}

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#E853050D</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="text_color">#5D5D5D</color>
+    <color name="white">#FFFFFF</color>
+    <color name="line_divider">#79DFDCDC</color>
+
+     <color name="grey_100">#F5F5F5</color>
+        <color name="grey_300">#E0E0E0</color>
+        <color name="grey_500">#575454</color>
+
+    <color name="gray_btn_click">#E0E0E0</color>
+    <color name="black">#181616</color>
+    <color name="drack">#838080</color>
+    <color name="red">#f91212</color>
+    <color name="divider_color">#22ffffff</color>
+    <color name="card_color">#fff</color>
+    <color name="blue_color">#3F51B5</color>
+    <color name="colorComment">#F2F3F8</color>
+    <color name="silver">#C0C0C0</color>
+
+
+</resources>

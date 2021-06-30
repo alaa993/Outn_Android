@@ -1,0 +1,158 @@
+<resources>
+    <string name="app_name">outn</string>
+    <string name="hint_search">ülke ve şehir ve bölgede arama</string>
+    <string name="sale">Satış</string>
+    <string name="rent">Kira</string>
+    <string name="login">Giriş yap</string>
+    <string name="first_name">İsim</string>
+    <string name="last_name">Soyadı</string>
+
+    <string name="creat_account">Hesap Oluştur</string>
+    <string name="search_main">arama</string>
+
+
+    <string name="name">İsim</string>
+    <string name="mobile">Cep Telefonu</string>
+    <string name="address">Adres</string>
+    <string name="country">Ülke</string>
+    <string name="city">Şehir</string>
+    <string name="email">E-posta</string>
+    <string name="countinue">saymak</string>
+    <string name="optional">E-posta isteğe bağlı)</string>
+    <string name="not_empty">Boş olmamalı</string>
+    ِ
+    <string name="help">Yardım</string>
+    <string name="rejester">Kayıt ol</string>
+    ِ
+    <string name="try_agin">tekrar dene</string>
+    <string name="pls_wait">Lütfen bekle...</string>
+
+
+    <string name="details">Detaylar</string>
+    <string name="pictures">Resimler</string>
+    <string name="save">Kayıt etmek</string>
+
+    <string name="more">Daha</string>
+    <string name="send_link">Link gönder</string>
+    <string name="sign_out">Oturumu Kapat</string>
+    <string name="verify_email">E-mail"'"i doğrula</string>
+    <string name="verify">Doğrulayın</string>
+    <string name="disconnect">Bağlantıyı kes</string>
+    <string name="loading">Yükleniyor…</string>
+    <string name="signed_in">Giriş yapıldı</string>
+
+    <string name="start_phone_auth">Başlat</string>
+    <string name="verify_phone_auth">Doğrulayın</string>
+    <string name="resend_phone_auth">Yeniden gönderme kodu</string>
+    <string name="hint_phone_number">Telefon numarası</string>
+    <string name="hint_verification_code">Doğrulama kodu</string>
+    <string name="status_code_sent">Kod gönderildi</string>
+    <string name="status_verification_failed">Doğrulama başarısız oldu</string>
+    <string name="status_verification_succeeded">Doğrulama başarılı</string>
+
+    <string name="listcity">ListCity</string>
+    <string name="listarea">ListArea</string>
+    <string name="area">Alan</string>
+    <string name="list_state">ListState</string>
+
+    <string name="place_first_select_country">İlk Yer Ülkeyi Seçin </string>
+    <string name="place_first_select_state">İlk Seçme Durumunu Yerleştir </string>
+    <string name="place_first_select_city">Birincilik Yeri Seçin Şehir </string>
+    <string name="select_homeType">HomeType seçin </string>
+    <string name="select_state">Eyalet Seçin </string>
+    <string name="select_action">İşlem seç </string>
+    <string name="select_gallery">Galeriden seç fotoğraf </string>
+    <string name="select_camera"> Kameradan Yakalama fotoğraf </string>
+    <string name="complete_action_using">Kullanarak eylemi tamamlayın </string>
+    <string name="empty">Boş olamaz.</string>
+    <string name="invalid">Geçersiz telefon numarası.</string>
+    <string name="invalid_code">Geçersiz kod.</string>
+    <string name="monthly_payment">aylık ödeme</string>
+    <string name="down_payment">peşinat</string>
+    <string name="price">Fiyat</string>
+    <string name="room">Odalar</string>
+    <string name="meter">Uzay</string>
+    <string name="monthly">Aylık</string>
+    <string name="yearly">Yıllık</string>
+    <string name="add_sale">Satış Ekle </string>
+    <string name="add_rent">Kira Ekle </string>
+    <string name="list_home">Gayrimenkulüm</string>
+    <string name="share_app">Uygulamayı Paylaş </string>
+    <string name="about">hakkında </string>
+    <string name="exit">çıkış </string>
+    <string name="change_language">Dili değiştir </string>
+    <string name="list_country">ListCountry</string>
+    <string name="state">Durum</string>
+
+    <string name="description">Açıklama</string>
+    <string name="edit_profile">Profili Düzenle</string>
+    <string name="profile">Profil</string>
+    <string name="update">Güncelleme</string>
+
+
+    <!--    not translate-->
+
+    <string name="english">English</string>
+    <string name="arabic">عربى</string>
+    <string name="kurdish">Kurdî</string>
+
+    <string name="text_login"> Bir mülk eklemek için bir hesap oluşturmak ister misiniz?</string>
+
+    <string name="currency"> (ُ$ or ع.د or €...)</string>
+    <string name="phon_nubmer_for_call">hücre için Phon numarası</string>
+
+    <string name="result_search">Arama Sonucu</string>
+    <string name="add_new_sale">Yeni Satış Ekle</string>
+    <string name="add_new_rent">Yeni Kira Ekle</string>
+
+
+    <string name="about_des"> Uygulamanın Dış Tanımı Uygulama, gayrimenkulün satışını ve kiralamasını çok daha kolaylaştırmayı, mesafeleri yakınlaştırmayı ve ne kadar uzakta olursa olsun tüm taraflara iletişim için altın bir fırsat vermeyi amaçlamaktadır. Kelimenin işitsel anlamında, dışını ve içini kapsar, yani dünyanın herhangi bir ülkesinde olduğu gibi, herkes şehir içinde ve dışında sunulan gayrimenkulleri bulup satabilir, satın alabilir ve kiralayabilir. Uygulama, bireylerin geleneksel ofis ve şirketlere ihtiyaç duymadan bir gayrimenkul satış ve kiralama platformu başlatmasına olanak tanıyarak, uygulama içerisinde sadece bir hesap oluşturarak satış ve kiralık gayrimenkul sunmayı ve müşterilerle kolayca iletişim kurmayı mümkün kılar. Aynı zamanda dışarıdan da kişinin seçtiği marka ismini sosyal medyada yayınlanabilir ve tanıtılabilir gösterir. Uygulama, müşterilere istedikleri özelliklere göre gayrimenkul seçmeleri için kapılar açmaktadır. Uygulama üzerinden emlak resimleri görüntülenen mülkler, fiyatlar ve mülk sahipleri ile iletişimdir. Gayrimenkul belirli bir ülke veya şehir bazında ve gerekli şartnamelere göre aranabilir. Uygulama, insanlar arasında mülkle ilgili bilgileri tanıtmanın en kolay yolunu sağlar ve Promote It.Outn Uygulaması, bireylerin emlak şirketlerini kısıtlamasına olanak tanır. Onlar olmadan başlamalarına izin veren ilk küresel platformdur. Ve ofisi veya şirketi için seçtiği ad, örneğin John dışında hemen uygulamada görünür.</string>
+    <string name="business_name">iş adı</string>
+
+    <string name="new_version_available">There is a newer version of outn application available, click UPDATE to upgrade now?</string>
+    <string name="warning">Warning</string>
+
+    <string name="help_text_one">Daha fazla detay için bizimle WhatsApp üzerinden iletişime geçebilirsiniz.</string>
+    <string name="help_text_two">Veya e-posta yoluyla</string>
+    <string name="contact_us">Bize Ulaşın</string>
+    <string name="search">ülke ve şehre göre gayrimenkul arayın</string>
+
+    <string name="contact_dec">Merhaba .. senin gayrimenkul yayımlamak için - WhatsApp \ n Ad, telefon numarası, ülke ve şehir, gayrimenkul bilgileri ve resimleri Gönder </string>
+
+    <string name="add_image_About_neighborhood"> En yakın noktayı ekleyin</string>
+
+    <string name="about_neighborhood">Mahalle hakkında (isteğe bağlı)</string>
+    <string name="des_neighborhood"> Mahalle hakkında </string>
+
+    <string name="main_street"> Ana cadde </string>
+    <string name="sport_club"> Spor Kulübü </string>
+    <string name="nearest_school"> En Yakın Okul </string>
+    <string name="nearst_markets">Yakın Pazarlar</string>
+    <string name="Activity">Aktivite</string>
+
+
+    <string name="delete">Sil</string>
+    <string name="edit">Düzenle</string>
+    <string name="comment">Yorum</string>
+    <string name="news">Haberler</string>
+    <string name="list_news">Liste Haberleri</string>
+    <string name="title">Başlık</string>
+    <string name="outn_platform">Outn Platformu</string>
+    <string name="partners">Ortaklar</string>
+    <string name="views">Görünümler</string>
+    <string name="opinion">eklenti görüş</string>
+    <string name="your_vision_and_our_vision"> Vizyonumuz</string>
+    <string name="turkish">Türkçesi</string>
+    <string name="add_real_estate">gayrimenkul eklemek </string>
+    <string name="send_to">gönderildi:</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="success_request">istek başarıdır</string>
+    <string name="success_error">İsteğiniz bir hatayla karşılaştı</string>
+    <string name="field_cannot_empty">Bu alan boş olamaz</string>
+    <string name="lenght_canot_less_10">Uzunluk 10"'"dan az olamaz</string>
+    <string name="select_an_photo_for_your_opinion">lütfen fikriniz için bir fotoğraf seçin</string>
+    <string name="select_multiple_image">Galeriden birden fazla resim seçin</string>
+    <string name="select_more_than_one">Lütfen birden fazla resim seçin</string>
+    <string name="about_the_company">Şirket hakkında</string>
+
+</resources>

@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/home/andpy/StudioProjects/outn/cropper/build/intermediates/res/merged/release/drawable-v21/abc_action_bar_item_background_material.xml",
+        "source": "/home/andpy/.gradle/caches/transforms-2/files-2.1/f1881dbfafd54b9d687a6d5c72b81380/appcompat-1.0.0/res/drawable-v21/abc_action_bar_item_background_material.xml"
+    },
+    {
+        "merged": "/home/andpy/StudioProjects/outn/cropper/build/intermediates/res/merged/release/drawable-v21/abc_list_divider_material.xml",
+        "source": "/home/andpy/.gradle/caches/transforms-2/files-2.1/f1881dbfafd54b9d687a6d5c72b81380/appcompat-1.0.0/res/drawable-v21/abc_list_divider_material.xml"
+    },
+    {
+        "merged": "/home/andpy/StudioProjects/outn/cropper/build/intermediates/res/merged/release/drawable-v21/abc_edit_text_material.xml",
+        "source": "/home/andpy/.gradle/caches/transforms-2/files-2.1/f1881dbfafd54b9d687a6d5c72b81380/appcompat-1.0.0/res/drawable-v21/abc_edit_text_material.xml"
+    },
+    {
+        "merged": "/home/andpy/StudioProjects/outn/cropper/build/intermediates/res/merged/release/drawable-v21/notification_action_background.xml",
+        "source": "/home/andpy/.gradle/caches/transforms-2/files-2.1/d3500e21d3f66a2a486ca0d99c97d42e/core-1.0.0/res/drawable-v21/notification_action_background.xml"
+    },
+    {
+        "merged": "/home/andpy/StudioProjects/outn/cropper/build/intermediates/res/merged/release/drawable-v21/abc_btn_colored_material.xml",
+        "source": "/home/andpy/.gradle/caches/transforms-2/files-2.1/f1881dbfafd54b9d687a6d5c72b81380/appcompat-1.0.0/res/drawable-v21/abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "/home/andpy/StudioProjects/outn/cropper/build/intermediates/res/merged/release/drawable-v21/abc_dialog_material_background.xml",
+        "source": "/home/andpy/.gradle/caches/transforms-2/files-2.1/f1881dbfafd54b9d687a6d5c72b81380/appcompat-1.0.0/res/drawable-v21/abc_dialog_material_background.xml"
+    }
+]

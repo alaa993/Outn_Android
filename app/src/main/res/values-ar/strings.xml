@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="business_name">BusinessName</string>
+
+    <string name="app_name">outn</string>
+    <string name="hint_search">البحث في البلد والمدينة والمنطقة</string>
+    <string name="sale">بيع</string>
+    <string name="rent">إيجار</string>
+    <string name="login">تسجيل الدخول</string>
+    <string name="first_name">الاسم الاول</string>
+    <string name="last_name">اسم العائلة</string>
+    <string name="creat_account">إنشاء حساب</string>
+
+
+    <string name="name">الأسم</string>
+    <string name="mobile">موبايل</string>
+    <string name="address">العنوان</string>
+    <string name="country">البلد</string>
+    <string name="city">المدينة</string>
+    <string name="email">البريد الالكتروني</string>
+    <string name="countinue">متابعة</string>
+    <string name="optional">البريد الالكتروني ( اختياري ) </string>
+    <string name="not_empty">لايجب أن تكون فارغة</string>
+    ِ
+    <string name="help">مساعدة</string>
+    <string name="rejester">تسجيل</string>
+    ِ
+    <string name="try_agin">حاول مرة أخرى</string>
+    <string name="pls_wait">يرجى الانتظار...</string>
+
+
+    <string name="details">تفاصيل</string>
+    <string name="pictures">صور</string>
+    <string name="save">حفظ</string>
+
+    <string name="more">…أكثر</string>
+    <string name="send_link">أرسل الرابط</string>
+    <string name="sign_out">خروج</string>
+    <string name="verify_email">التحقق من البريد الإلكتروني</string>
+    <string name="verify">التحقق</string>
+    <string name="disconnect">قطع الاتصال</string>
+    <string name="loading">جار التحميل…</string>
+    <string name="signed_in">تم الدخول</string>
+
+    <string name="start_phone_auth">بداية</string>
+    <string name="verify_phone_auth">تحقق</string>
+    <string name="resend_phone_auth">أعد إرسال الرمز</string>
+    <string name="hint_phone_number">رقم الهاتف</string>
+    <string name="hint_verification_code">كود التحقق</string>
+    <string name="status_code_sent">تم ارسال الكود</string>
+    <string name="status_verification_failed">فشل التحقق</string>
+    <string name="status_verification_succeeded">نجح التحقق</string>
+
+    <string name="listcity">قائمة المدينة</string>
+    <string name="listarea">قائمة المنطقة</string>
+    <string name="area"> المنطقة</string>
+    <string name="list_state">قائمة الدولة</string>
+
+    <string name="place_first_select_country">من فضلك اختر الدولة </string>
+    <string name="place_first_select_state">من فضلك اختر حالة</string>
+    <string name="place_first_select_city">من فضلك اختر المدينة</string>
+    <string name="select_homeType">اختر نوع المنزل </string>
+    <string name="select_state">اخترحالة </string>
+    <string name="select_action">اختر امراً </string>
+
+    <string name="select_camera">التقاط صورة من الكاميرا </string>
+    <string name="select_gallery"> حدد صورة من المعرض </string>
+
+
+    <string name="complete_action_using">أكمل الأمر بإستخدام</string>
+    <string name="empty">لايمكن ان يكون فارغا.</string>
+    <string name="invalid">رقم الهاتف غير صحيح.</string>
+    <string name="invalid_code">الرمز غير صحيح.</string>
+    <string name="monthly_payment">الدفع الشهري</string>
+    <string name="down_payment">الدفعة الأولى</string>
+    <string name="price">السعر</string>
+    <string name="room">عدد الغرف  </string>
+    <string name="meter">مساحة </string>
+    <string name="monthly">شهري </string>
+    <string name="yearly">سنوي</string>
+    <string name="add_sale">إضافة بيع</string>
+    <string name="add_rent">إضافة الإيجار</string>
+    <string name="list_home">عقاراتي </string>
+    <string name="share_app">شارك التطبيق </string>
+    <string name="about">حول </string>
+    <string name="exit">خروج </string>
+    <string name="change_language">تغيير اللغة </string>
+    <string name="list_country">قائمة البلد</string>
+    <string name="state">حالة</string>
+    <string name="description">وصف</string>
+    <string name="edit_profile">تعدیل الملف</string>
+    <string name="profile">الملف الشخصي</string>
+    <string name="update">تحديث</string>
+    <string name="english">English</string>
+    <string name="arabic">عربى</string>
+    <string name="kurdish">Kurdî</string>
+
+    <string name="text_login">لإضافة عقار انشئ حسابك ?</string>
+
+    <string name="currency"> (ُ$ or ع.د or €...)</string>
+    <string name="phon_nubmer_for_call">رقم الموبايل </string>
+
+    <string name="result_search">نتيجة البحث</string>
+    <string name="add_new_sale">  إضافة بيع جديد</string>
+    <string name="add_new_rent">إضافة إيجار جديد</string>
+
+
+    <string name="about_des">تعريف بالتطبيق
+يهدف التطبيق لجعل عمليات بيع و ايجار العقارات في غاية السهولة ، و يقرّب المسافات  و يمنح جميع الاطراف فرصة ذهبية للتواصل مهما بعدت المسافات.
+قصدنا في تسمية التطبيق ب( outn )  ، بالمعنى الصوتي للكلمة ، و تتضمن الخارج و الداخل ، أي يستطيع الجميع بالتعرف على العقارات المعروضة في داخل المدينة و خارجها كذلك في أي بلد في العالم  و اجراء عمليات البيع و الشراء و الايجار بكل سهولة و سلاسة.
+يمنح التطبيق الافراد فرصة اطلاق منصة لبيع و ايجار العقارات دون الحاجة إلى المكاتب و الشركات التقليدية ، لمجرد إنشاء حساب ضمن التطبيق يصبح بالامكان عرض العقارات للبيع و الايجار ، و يتواصل بكل سهولة مع الزبائن. كما يظهر الاسم التجاري الذي يختاره الشخص إلى جنب outn ، و يمكن نشره و الترويج له من خلال وسائل التواصل الاجتماعي.
+يفتح التطبيق الأبواب امام الزبائن لاختيار العقارات و فق المواصفات التي يرغبون .
+من خلال التطبيق يتم عرض صور العقارات و مواصفاتها و اسعارها و التواصل مع اصحابها.
+يمكن البحث عن العقار في بلد أو مدينة معينة و وفق المواصفات المطلوبة.
+يوفر التطبيق اسهل الطرق لنشر المعلومات عن العقار بين الناس لللترويج له و التعريف به.
+تطبيق ( outn ) اول منصة عالمية تتيح الفرصة للافراد لاطلاق شركاتهم العقارية دون قيود . و يظهر الاسم الذي يختاره لمكتبه أو شركته فورا في التطبيق ، مثلا         outn john .
+
+</string>
+    <string name="new_version_available">There is a newer version of outn application available, click UPDATE to upgrade now?</string>
+    <string name="warning">Warning</string>
+
+    <string name="help_text_one">لمزيد من التفاصيل يمكنكم التواصل معنا عبر واتسأب</string>
+    <string name="help_text_two">او عبر الايميل</string>
+    <string name="contact_us">تواصل معنا</string>
+    <string name="search">ابحث عن العقار حسب المدينة والبلد</string>
+    <string name="search_main"> البحث</string>
+
+    <string name="contact_dec"> مرحباً لنشر إعلان عقاركم
+ارسل واتسأب
+الاسم و رقم الهاتف و البلد و المدينة و معلومات العقار و الصور
+ </string>
+
+    <string name="add_image_About_neighborhood"> اضف نقطة دالة </string>
+    <string name="about_neighborhood">معلومات عن الحي (اختياري)</string>
+    <string name="des_neighborhood">   معلومات عن الحي </string>
+
+    <string name="main_street"> شارع رئيسي </string>
+    <string name="nearest_school">اقرب مدرسة  </string>
+    <string name="sport_club">نادي رياضي </string>
+    <string name="nearst_markets">أقرب أسواق</string>
+
+    <string name="Activity">فعالية</string>
+
+    <string name="delete">حذف</string>
+    <string name="edit">تعديل</string>
+    <string name="comment">تعليق</string>
+    <string name="news">أخبار</string>
+    <string name="list_news">قائمة الأخبار</string>
+    <string name="title">عنوان</string>
+    <string name="outn_platform"> منصة outn</string>
+    <string name="partners">شركاؤنا</string>
+    <string name="views">مشاهدات</string>
+    <string name="opinion"> مشاركتي</string>
+    <string name="your_vision_and_our_vision"> رؤيتنا</string>
+    <string name="add_real_estate">انشر عقارك </string>
+    <string name="success_request">request is success</string>
+    <string name="success_error">هناك خطأ في طلبك</string>
+    <string name="field_cannot_empty">لا يمكن ترك هذا الحقل فارغآ</string>
+    <string name="lenght_canot_less_10">لا يمكن أن يكون أقل من ١٠ أحرف</string>
+    <string name="select_an_photo_for_your_opinion">الرجاء اختيار صورة لمشاركتك</string>
+    <string name="send_to">إرسال إلى</string>
+    <string name="select_multiple_image">يرجى الاختيار اكثر من صورة من المعرض</string>
+    <string name="select_more_than_one">الرجاء الاختيار اكثر من صورة</string>
+    <string name="turkish">Türkçesi</string>
+    <string name="about_the_company">About the company</string>
+
+
+</resources>
